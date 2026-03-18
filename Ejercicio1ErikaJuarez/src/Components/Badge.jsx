@@ -1,6 +1,6 @@
 import React from "react";
 import '../App.css'
-const Bagde = ({texto1,texto2}) => {
+const Bagde = ({ texto1, texto2 }) => {
     return (
         <>
             <h1>{texto1} <span className="badge text-bg-secondary">{texto2}</span></h1>

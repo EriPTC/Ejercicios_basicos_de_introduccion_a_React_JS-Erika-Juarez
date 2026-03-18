@@ -1,6 +1,6 @@
 import React from "react";
 import '../App.css'
-const Alerta = ({texto}) => {
+const Alerta = ({ texto }) => {
     return (
         <>
             <div className="alert alert-info" role="alert">
