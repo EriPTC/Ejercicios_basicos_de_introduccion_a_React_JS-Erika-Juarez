@@ -1,27 +1,27 @@
 import React from "react";
 import '../App.css'
-const Navbar = ({ titulo1, titulo2, titulo3, parrafo1, parrafo2, parrafo3, }) => {
+const Navbar = ({ titulo1, titulo2, titulo3, titulo4, titulo5  }) => {
     return (
    <>
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
   <div className="container-fluid">
-    <a className="navbar-brand" href="#">Navbar</a>
+    <a className="navbar-brand" href="#">{titulo1}</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">Home</a>
+          <a className="nav-link active" aria-current="page" href="#">{titulo2}</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Features</a>
+          <a className="nav-link" href="#">{titulo3}</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Pricing</a>
+          <a className="nav-link" href="#">{titulo4}</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link disabled" aria-disabled="true">Disabled</a>
+          <a className="nav-link disabled" aria-disabled="true">{titulo5}</a>
         </li>
       </ul>
     </div>
